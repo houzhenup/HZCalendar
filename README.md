@@ -1,5 +1,4 @@
-# HZStatusBarEffect
-
+# HZCalendar
 几行代码，轻松集成
 
     SZCalendarPicker *calendarPicker = [SZCalendarPicker showOnView:self.view];
