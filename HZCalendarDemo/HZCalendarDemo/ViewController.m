@@ -21,7 +21,6 @@
     [super viewDidLoad];
     
     SZCalendarPicker *calendarPicker = [SZCalendarPicker showOnView:self.view];
-    
     calendarPicker.today = [NSDate date];
     calendarPicker.date = calendarPicker.today;
     calendarPicker.frame = CGRectMake(0, 80, self.view.frame.size.width, 352);
