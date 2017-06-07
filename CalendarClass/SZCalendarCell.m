@@ -11,6 +11,7 @@
 @implementation SZCalendarCell
 - (UILabel *)dateLabel
 {
+    
     if (!_dateLabel) {
         _dateLabel = [[UILabel alloc] initWithFrame:self.bounds];
         [_dateLabel setTextAlignment:NSTextAlignmentCenter];
